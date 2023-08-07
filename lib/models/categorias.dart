@@ -1,0 +1,15 @@
+// lib/models/categorias.dart
+
+import 'package:flutter/material.dart';
+import 'package:thiagopdm/mock_data.dart';
+class Categoria {
+  final String id;
+  final String titulo;
+  final Color color;
+
+  const Categoria({
+    required this.id,
+    required this.titulo,
+    required this.color,
+  });
+}
